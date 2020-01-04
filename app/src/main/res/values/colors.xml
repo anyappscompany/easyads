@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="defaultAdStatus">#808080</color> <!-- по умолчанию -->
+    <color name="activeAdStatus">#2ac63c</color> <!-- активные -->
+    <color name="pendingAdStatus">#47d8f2</color> <!-- ожидающие -->
+    <color name="inactiveAdStatus">#f2cd47</color> <!-- неактивные -->
+    <color name="deletedAdStatus">#c62a3a</color> <!-- удаленные -->
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+Spinner spinner1 = (Spinner)findViewById(R.id.spinner1);
+String itemvalue = getResources().getStringArray(R.array.settings_listofitems_values)[spinner1.getSelectedItemPosition()];
+String keyvalue = getResources().getStringArray(R.array.settings_listofitems_keys)[spinner1.getSelectedItemPosition()];
+-->
+    <!-- data[param_price][currency] -->
+    <string-array name="data_param_price_currency_keys">
+        <item>грн.</item>
+        <item>$</item>
+        <item>€</item>
+    </string-array>
+    <string-array name="data_param_price_currency_values">
+        <item>UAH</item>
+        <item>USD</item>
+        <item>EUR</item>
+    </string-array>
+
+    <!-- data[param_state] -->
+    <string-array name="data_param_state_keys">
+        <item>Выбрать</item>
+        <item>Б/у</item>
+        <item>Новый</item>
+    </string-array>
+    <string-array name="data_param_state_values">
+        <item></item>
+        <item>used</item>
+        <item>new</item>
+    </string-array>
+
+    <!-- data[private_business] -->
+    <string-array name="data_private_business_keys">
+        <item>Частное лицо</item>
+        <item>Бизнес</item>
+    </string-array>
+    <string-array name="data_private_business_values">
+        <item>private</item>
+        <item>business</item>
+    </string-array>
+</resources>
